@@ -527,7 +527,8 @@ function App() {
             </li>
             <li>
               <span className="font-bold">Professional Impact</span> – Applied
-              entrepreneurial skills in both **Strive and Courseer**, shaping my
+              entrepreneurial skills in both{" "}
+              <span className="font-bold">Strive and Courseer</span>, shaping my
               approach to secure software development.
             </li>
           </ul>
@@ -563,7 +564,7 @@ function App() {
       title: "SolarSPELL Internship",
       status: "Under Review",
       imageUrl:
-        "https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1632932693914-89b90ae3d16d?q=80&w=3163&auto=format&fit=crop",
       content: (
         <>
           <p className="mb-4">
@@ -935,7 +936,7 @@ function App() {
             >
               <div className="aspect-video">
                 <img
-                  src="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=3032&auto=format"
+                  src="https://images.unsplash.com/photo-1632932693914-89b90ae3d16d?q=80&w=3163&auto=format&fit=crop"
                   alt="SolarSPELL Internship"
                   className="w-full h-full object-cover"
                 />
@@ -1041,11 +1042,10 @@ function App() {
 
       <footer className="bg-gray-800 text-white py-12">
         <div className="max-w-6xl mx-auto px-4">
-          <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="md:flex flex-col md:flex-row md:justify-between md:items-center">
             <div>
-              <h2 className="text-2xl font-bold mb-2">Saketh Pabolu</h2>
+              <h2 className="text-2xl font-bold md:mb-2">Saketh Pabolu</h2>
               <p className="text-gray-400">Grand Challenges Scholar</p>
-              <p className="text-gray-400">Computer Science (B.S.)</p>
             </div>
             <div className="flex gap-4 mt-4 md:mt-0">
               <a
