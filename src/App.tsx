@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import {
-  Lightbulb,
   BookOpen,
   Globe2,
   Heart,
