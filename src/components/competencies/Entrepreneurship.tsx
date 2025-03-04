@@ -1,7 +1,13 @@
 import React from "react";
 import { GraduationCap } from "lucide-react";
+import { ExperienceDetailsProps } from "../../types";
 
-const Entrepreneurship: React.FC = ({ setSelectedExperience, experiences }) => {
+interface EntrepreneurshipProps {
+  setSelectedExperience: React.Dispatch<React.SetStateAction<ExperienceDetailsProps | null>>;
+  experiences: Record<string, ExperienceDetailsProps>;
+}
+
+const Entrepreneurship: React.FC<EntrepreneurshipProps> = ({ setSelectedExperience, experiences }) => {
   return (
     <section className="mb-20">
       <div className="flex items-center gap-3 mb-6">

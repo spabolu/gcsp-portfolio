@@ -1,7 +1,13 @@
 import React from "react";
 import { Heart } from "lucide-react";
+import { ExperienceDetailsProps } from "../../types";
 
-const Social: React.FC = ({ setSelectedExperience, experiences }) => {
+interface SocialProps {
+  setSelectedExperience: React.Dispatch<React.SetStateAction<ExperienceDetailsProps | null>>;
+  experiences: Record<string, ExperienceDetailsProps>;
+}
+
+const Social: React.FC<SocialProps> = ({ setSelectedExperience, experiences }) => {
   return (
     <section className="mb-20">
       <div className="flex items-center gap-3 mb-6">

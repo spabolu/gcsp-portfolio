@@ -1,7 +1,13 @@
 import React from "react";
 import { Globe2 } from "lucide-react";
+import { ExperienceDetailsProps } from "../../types";
 
-const Multicultural: React.FC = ({ setSelectedExperience, experiences }) => {
+interface MulticulturalProps {
+  setSelectedExperience: React.Dispatch<React.SetStateAction<ExperienceDetailsProps | null>>;
+  experiences: Record<string, ExperienceDetailsProps>;
+}
+
+const Multicultural: React.FC<MulticulturalProps> = ({ setSelectedExperience, experiences }) => {
   return (
     <section className="mb-20">
       <div className="flex items-center gap-3 mb-6">
