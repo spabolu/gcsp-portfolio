@@ -12,7 +12,7 @@ import {
 // Updated experiences object that uses the content components
 const experiences = {
   capstone: {
-    title: "Capstone Project",
+    title: "Capstone I and Capstone II Project",
     status: ["Capstone I (Completed)", "Capstone II (In-Progress)"],
     imageUrl:
       "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=3269&auto=format&fit=crop",
@@ -36,11 +36,11 @@ const experiences = {
     title: "FSE 301: Entrepreneurship & Value Creation",
     status: "FSE 301 (Completed)",
     imageUrl:
-      "https://news.asu.edu/sites/default/files/styles/block_image_16_9_lge/public/hero_22.jpg",
+      "https://news.asu.edu/sites/default/files/styles/block_image_16_9_lge/public/20180427entrepreneurship_186.jpg?itok=1jhmLPcR",
     content: <FSE301Content />,
   },
   ireland: {
-    title: "Ireland Study Abroad Program",
+    title: "Ireland Study Abroad Experience",
     status: "Study Abroad (Completed)",
     imageUrl:
       "https://images.unsplash.com/photo-1590089415225-401ed6f9db8e?q=80&w=3174&auto=format",
@@ -54,7 +54,7 @@ const experiences = {
     content: <SolarSpellContent />,
   },
   epics: {
-    title: "EPICS Program",
+    title: "Engineering Projects in Community Service (EPICS)",
     status: ["FSE 104 (Completed)", "FSE 404 (Completed)"],
     imageUrl:
       "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80",

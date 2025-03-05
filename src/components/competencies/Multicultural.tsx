@@ -41,13 +41,19 @@ const Multicultural: React.FC<MulticulturalProps> = ({
           </div>
           <div className="p-6">
             <h3 className="text-xl font-semibold mb-4">
-              Ireland Study Abroad Program
+              Study Abroad Experience - Summer in Dublin, Ireland
             </h3>
             <p className="text-gray-600">
-              Studied healthcare systems and medical device innovation in
-              Ireland, gaining valuable insights into European healthcare
-              approaches and regulatory frameworks. This experience broadened my
-              perspective on global healthcare solutions.
+              My study abroad experience in Dublin, Ireland was a six-week
+              immersion into Irish culture, history, and innovation. Living at
+              University College Dublin (UCD), I explored the country's rich
+              heritage through visits to Croke Park, historic castles, and the
+              scenic Howth Cliffs, while also engaging with fellow students.
+              Experiencing Dublin's tech ecosystem, including the Silicon Docks,
+              gave me insight into how culture influences business and
+              technology. This experience deepened my global perspective,
+              enhancing my ability to approach problem-solving with a
+              cross-cultural mindset.
             </p>
           </div>
         </div>

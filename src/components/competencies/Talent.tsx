@@ -24,7 +24,7 @@ const Talent = ({ setSelectedExperience, experiences }: TalentProps) => {
           className="bg-white rounded-xl shadow-md p-6 cursor-pointer transform transition-transform hover:scale-[1.02]"
           onClick={() => setSelectedExperience(experiences.capstone)}
         >
-          <h3 className="text-xl font-semibold mb-4">CSE485: Capstone I</h3>
+          <h3 className="text-xl font-semibold mb-4">CSE 485: Capstone I</h3>
           <p className="text-gray-600 mb-4">
             Capstone I focused on building a secure commercial property
             management system for Rock Bay Square LP, replacing a vulnerable
@@ -52,7 +52,7 @@ const Talent = ({ setSelectedExperience, experiences }: TalentProps) => {
           className="bg-white rounded-xl shadow-md p-6 cursor-pointer transform transition-transform hover:scale-[1.02]"
           onClick={() => setSelectedExperience(experiences.capstone)}
         >
-          <h3 className="text-xl font-semibold mb-4">CSE486: Capstone II</h3>
+          <h3 className="text-xl font-semibold mb-4">CSE 486: Capstone II</h3>
           <p className="text-gray-600 mb-4">
             Capstone II focuses on enhancing security and scalability for the
             property management system, with my contributions in frontend

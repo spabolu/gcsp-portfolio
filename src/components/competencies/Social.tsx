@@ -27,7 +27,7 @@ const Social: React.FC<SocialProps> = ({ setSelectedExperience, experiences }) =
       >
         <div className="grid md:grid-cols-2">
           <div className="p-8">
-            <h3 className="text-2xl font-semibold mb-4">EPICS Program</h3>
+            <h3 className="text-2xl font-semibold mb-4">EPICS FSE 104 & FSE 404 Program</h3>
             <p className="text-gray-600 mb-4">
               Participated in two semesters of Engineering Projects in Community
               Service (EPICS), working on healthcare accessibility projects for
