@@ -22,12 +22,14 @@ const experiences = {
     title: "FSE 150: Perspectives on Grand Challenges",
     status: "FSE 150 (Completed)",
     imageUrl:
-      "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&q=80",
+      "https://dhravya.dev/_next/image?url=https%3A%2F%2Fi.dhr.wtf%2Fr%2Flrbi87yh1a0.jpeg&w=1920&q=75",
     content: <FSE150Content />,
   },
   paf415: {
     title: "PAF 415: Public Policy",
     status: "PAF 415 (Completed)",
+    imageUrl:
+      "https://scontent-phx1-1.xx.fbcdn.net/v/t39.30808-6/357552729_651386900365684_6366090596104965542_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wdeAVj3evtcQ7kNvgF4B-s9&_nc_oc=AdgC2aYQbbNbbw7VgEFC0XVrHbHR4tl8KXAq8wiluKztZQ7IPombMsBvvpDS7EaTm6c&_nc_zt=23&_nc_ht=scontent-phx1-1.xx&_nc_gid=AMSic6UXZmkwObBEV0bfFPH&oh=00_AYAgreSW3iuESMuVVOJMwzVWIDAmhuoxgqzt_8985pKmYg&oe=67CD8C7B",
     content: <PAF415Content />,
   },
   fse301: {

@@ -2,7 +2,19 @@ import React from "react";
 
 const PAF415Content: React.FC = () => {
   return (
-    <>
+    <div className="space-y-3">
+      <div className="bg-amber-100 rounded-lg p-2">
+        <p className="font-bold">
+          Stakeholder Presentation:{" "}
+          <a
+            href=""
+            className="text-blue-600 hover:text-blue-800 hover:underline"
+          >
+            Google Drive Link
+          </a>
+        </p>
+      </div>
+
       <p>
         My multidisciplinary learning experience helped me approach security
         challenges from multiple perspectives, blending technical, social, and
@@ -12,76 +24,53 @@ const PAF415Content: React.FC = () => {
         policy, and social impact intersect to address complex security issues.
       </p>
 
-      <h4 className="font-semibold mt-4 mb-2">
-        PAF 415 - Social Entrepreneurship & Security:
-      </h4>
-      <ul className="list-disc list-inside ml-4">
-        <li>
-          <span className="font-bold">
-            Developed a solution for St. Mary's Food Bank
-          </span>{" "}
-          – Identified security and operational pain points in food
-          distribution.
-        </li>
-        <li>
-          <span className="font-bold">
-            Studied the societal impacts of security
-          </span>{" "}
-          – Explored how policy, technology, and business models influence
-          security challenges.
-        </li>
-        <li>
-          <span className="font-bold">Applied cross-sector collaboration</span>{" "}
-          – Learned to integrate private, public, and nonprofit sectors to solve
-          security-related challenges.
-        </li>
-      </ul>
-
-      <h4 className="font-semibold mt-4 mb-2">Outcomes:</h4>
       <p>
-        These experiences reinforced my ability to approach security from a
-        multidisciplinary lens, understanding not just the technical aspects but
-        also the social and policy-driven factors shaping security solutions.
+        In PAF 415 – Public Policy, I had the opportunity to develop a mobile
+        app solution for St. Mary’s Food Bank, focusing on identifying security
+        and operational challenges in food distribution. This project allowed me
+        to explore how security concerns extend beyond just technology,
+        incorporating policy and business considerations. I studied the societal
+        impacts of security, examining how different sectors—public, private,
+        and nonprofit—interact to address security-related issues effectively.
       </p>
-      <ul className="list-disc list-inside ml-4">
-        <li>
-          <span className="font-bold">Broader Perspective on Security</span> –
-          Gained insight into how security is influenced by engineering, social
-          structures, and governance.
-        </li>
-        <li>
-          <span className="font-bold">Cross-Sector Collaboration</span> –
-          Strengthened my ability to work across industries to develop
-          security-focused solutions.
-        </li>
-        <li>
-          <span className="font-bold">Real-World Application</span> – Applied
-          this knowledge in my Capstone project and professional experiences to
-          enhance security frameworks.
-        </li>
-      </ul>
 
-      <h4 className="font-semibold mt-4 mb-2">
-        Value of the Project Experience:
-      </h4>
-      <ul className="list-disc list-inside ml-4">
-        <li>
-          <span className="font-bold">GCSP Connection</span> – Aligned with the
-          Grand Challenge theme by integrating security, entrepreneurship, and
-          societal impact.
-        </li>
-        <li>
-          <span className="font-bold">Academic Growth</span> – Strengthened my
-          understanding of how security challenges extend beyond technology into
-          policy and business.
-        </li>
-        <li>
-          <span className="font-bold">Professional Impact</span> – Provided a
-          foundation for working in security-driven environments that require
-          multidisciplinary problem-solving.
-        </li>
-      </ul>
-    </>
+      <p>
+        PAF 415 is a required course for the Next Generation Service Corps
+        (NGSC) at ASU, a leadership development program that prepares students
+        to work across the private, public, and nonprofit sectors to address
+        complex societal challenges. NGSC emphasizes interdisciplinary learning
+        and encourages students to develop a systems mindset—one that integrates
+        diverse perspectives to create effective solutions. Through this
+        program, I have learned how to apply this approach within my own field
+        of engineering, ensuring that the technologies and solutions I develop
+        are not only technically sound but also socially responsible and
+        sustainable. By bridging policy, business, and technology, NGSC has
+        reinforced the importance of considering broader societal impacts when
+        designing engineering solutions.
+      </p>
+
+      <p>
+        One of the key takeaways from this experience was the importance of
+        approaching security from a multidisciplinary perspective. I gained a
+        deeper understanding of how engineering solutions are shaped by social
+        structures, governance, and policy decisions. Working across sectors
+        strengthened my ability to collaborate with different industries to
+        develop security-focused solutions. More importantly, I saw how these
+        concepts could be applied in practice, incorporating them into my
+        Capstone project and professional experiences to improve security
+        frameworks.
+      </p>
+
+      <p>
+        This course closely aligned with my involvement in the Grand Challenge
+        Scholars Program (GCSP) by integrating security, entrepreneurship, and
+        societal impact. Academically, it reinforced my understanding of how
+        security challenges extend beyond technical solutions and into policy
+        and business. Professionally, it provided a strong foundation for
+        working in security-driven environments that require complex,
+        interdisciplinary problem-solving.
+      </p>
+    </div>
   );
 };
 
