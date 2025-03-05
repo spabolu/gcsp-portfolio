@@ -1,7 +1,13 @@
 import React from "react";
 import { BookOpen } from "lucide-react";
+import { ExperienceDetailsProps } from "../../types";
 
-const Multidisciplinary = ({ setSelectedExperience, experiences }) => {
+interface MultidisciplinaryProps {
+  setSelectedExperience: React.Dispatch<React.SetStateAction<ExperienceDetailsProps | null>>;
+  experiences: Record<string, ExperienceDetailsProps>;
+}
+
+const Multidisciplinary = ({ setSelectedExperience, experiences }: MultidisciplinaryProps) => {
   return (
     <section className="mb-20">
       <div className="flex items-center gap-3 mb-6">

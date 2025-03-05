@@ -1,13 +1,24 @@
 import React from "react";
 import { GraduationCap } from "lucide-react";
-import { ExperienceDetailsProps } from "../../types";
 
 interface EntrepreneurshipProps {
-  setSelectedExperience: React.Dispatch<React.SetStateAction<ExperienceDetailsProps | null>>;
+  setSelectedExperience: React.Dispatch<
+    React.SetStateAction<ExperienceDetailsProps | null>
+  >;
   experiences: Record<string, ExperienceDetailsProps>;
 }
 
-const Entrepreneurship: React.FC<EntrepreneurshipProps> = ({ setSelectedExperience, experiences }) => {
+interface ExperienceDetailsProps {
+  title: string;
+  status: string | string[];
+  imageUrl?: string;
+  content: React.ReactNode;
+}
+
+const Entrepreneurship: React.FC<EntrepreneurshipProps> = ({
+  setSelectedExperience,
+  experiences,
+}) => {
   return (
     <section className="mb-20">
       <div className="flex items-center gap-3 mb-6">
