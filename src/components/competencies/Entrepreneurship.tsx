@@ -28,7 +28,7 @@ const Entrepreneurship: React.FC<EntrepreneurshipProps> = ({
             Entrepreneurship Component
           </h2>
           <p className="text-sm text-gray-600 mt-1">
-            Status: FSE 301 (Confirmed)
+            Status: FSE 301 (Completed)
           </p>
         </div>
       </div>
@@ -37,20 +37,22 @@ const Entrepreneurship: React.FC<EntrepreneurshipProps> = ({
         onClick={() => setSelectedExperience(experiences.fse301)}
       >
         <h3 className="text-2xl font-semibold mb-4">
-          FSE301: Entrepreneurship & Value Creation
+          FSE 301: Entrepreneurship & Value Creation
         </h3>
         <div className="grid md:grid-cols-2 gap-8">
           <div>
             <p className="text-gray-600 mb-4">
-              In FSE301, I developed a comprehensive business plan for
-              commercializing a medical device innovation. This experience
-              taught me the importance of considering market needs, regulatory
-              requirements, and financial viability in engineering solutions.
+              In FSE 301, I developed a comprehensive business plan for
+              commercializing a AI-powered fitness program. This experience
+              taught me the importance of considering market needs, customer
+              development, regulatory requirements, and financial viability in
+              engineering solutions.
             </p>
             <p className="text-gray-600">
               The course provided hands-on experience in market analysis,
               financial modeling, and pitch presentation, culminating in a
-              successful presentation to industry professionals.
+              successful presentation to industry professionals. I got the
+              opportunity to take this course in Ireland with Professor Kennedy.
             </p>
           </div>
           <div className="space-y-4">
@@ -59,10 +61,15 @@ const Entrepreneurship: React.FC<EntrepreneurshipProps> = ({
                 Key Achievements:
               </h4>
               <ul className="list-disc list-inside text-gray-600 ml-4">
-                <li>Developed comprehensive business plan</li>
-                <li>Conducted market analysis</li>
-                <li>Created financial projections</li>
-                <li>Pitched to industry professionals</li>
+                <li>Hands-on experience in ideation and business modeling.</li>
+                <li>
+                  Conducted 30+ customer interviews to refine the venture.
+                </li>
+                <li>Overcame introversion through user engagement.</li>
+                <li>Improved UI/UX using Figma based on real feedback.</li>
+                <li>
+                  Gained confidence in pitching a venture under 90 seconds.
+                </li>
               </ul>
             </div>
           </div>

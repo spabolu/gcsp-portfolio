@@ -1,119 +1,81 @@
-import React from 'react';
+import React from "react";
 
 const FSE301Content: React.FC = () => {
   return (
-    <>
+    <div className="space-y-3">
+      <div className="bg-amber-100 rounded-lg p-2">
+        <p className="font-bold">
+          Strive Pitch Deck:{" "}
+          <a
+            href="https://www.canva.com/design/DAFl7l3OcTw/I4XeFJ5Z7LLoH-a5fP_zNA/edit?utm_content=DAFl7l3OcTw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+            className="text-blue-600 hover:text-blue-800 hover:underline"
+            target="_blank"
+          >
+            Canva Link
+          </a>
+        </p>
+      </div>
+
       <p>
-        My entrepreneurial journey has been shaped by both academic
-        coursework and hands-on startup experience, allowing me to develop
-        solutions that address market needs while integrating
-        security-focused principles. Through{" "}
-        <span className="font-bold">FSE 301</span>, I gained a deep
-        understanding of opportunity recognition, value creation, and
-        business development, which I later applied to my own ventures.
+        My entrepreneurial journey has been shaped by both academic coursework
+        and hands-on startup experience, allowing me to develop solutions that
+        meet market demands while incorporating security-focused principles.
+        Through FSE 301, I gained valuable insights into opportunity
+        recognition, value creation, and business development—skills that I
+        later applied to my own ventures.
       </p>
 
-      <h4 className="font-semibold mt-4 mb-2">
-        FSE 301 - Entrepreneurship in Practice:
-      </h4>
-      <ul className="list-disc list-inside ml-4 mb-4">
-        <li>
-          <span className="font-bold">Developed Strive</span> – Built an
-          AI-powered fitness companion, refining customer and product
-          development strategies.
-        </li>
-        <li>
-          <span className="font-bold">
-            Conducted market and pricing research
-          </span>{" "}
-          – Analyzed user behavior to enhance product viability and business
-          growth.
-        </li>
-        <li>
-          <span className="font-bold">Avoided common startup pitfalls</span>{" "}
-          – Learned key risk mitigation strategies crucial for securing
-          product success.
-        </li>
-      </ul>
+      <p>
+        In 301 – Entrepreneurship & Value Creation, I developed Strive, an
+        AI-powered fitness companion, refining strategies for customer
+        engagement and product development. I conducted extensive market and
+        pricing research, analyzing user behavior to improve product viability
+        and drive business growth. Additionally, I learned how to avoid common
+        startup pitfalls, gaining key risk mitigation strategies essential for
+        securing long-term success.
+      </p>
 
-      <h4 className="font-semibold mt-4 mb-2">
-        Applying Entrepreneurship to Security-Focused Tech:
-      </h4>
-      <ul className="list-disc list-inside ml-4">
-        <li>
-          <span className="font-bold">Security in Product Development</span>{" "}
-          – Recognized the importance of integrating security in AI-driven
-          applications like Strive.
-        </li>
-        <li>
-          <span className="font-bold">Data Protection & Ethical AI</span> –
-          Explored privacy-preserving techniques to safeguard user data.
-        </li>
-        <li>
-          <span className="font-bold">Scalability & Risk Management</span> –
-          Applied strategies to mitigate business and security risks in new
-          tech ventures.
-        </li>
-      </ul>
-
-      <h4 className="font-semibold mt-4 mb-2">
-        Extending Concepts to Courseer:
-      </h4>
+      <p>
+        One of my biggest takeaways from this experience was recognizing the
+        importance of integrating security into product development, especially
+        in AI-driven applications like Strive. I explored data protection and
+        ethical AI, focusing on privacy-preserving techniques to safeguard user
+        data. Understanding scalability and risk management also helped me apply
+        strategies to mitigate both business and security risks in new tech
+        ventures.
+      </p>
       <p>
         While not part of FSE 301, the principles I learned in the course
-        provided a solid foundation when designing my own project,{" "}
-        <span className="font-bold">Courseer</span>. Understanding market
-        needs, secure data handling, and scalable product growth helped
-        ensure that Courseer maintained{" "}
-        <span className="font-bold">
-          data privacy, secure transactions, and user authentication,
-        </span>{" "}
-        aligning with security-focused solutions in tech.
+        provided a strong foundation for designing my own SaaS project,
+        Courseer. Applying my knowledge of market research, secure data
+        handling, and scalable product growth, I ensured that Courseer
+        prioritized data privacy, secure transactions, and user
+        authentication—key elements of security-focused solutions in tech.
       </p>
-
-      <h4 className="font-semibold mt-4 mb-2">Outcomes:</h4>
-      <ul className="list-disc list-inside ml-4">
-        <li>
-          <span className="font-bold">
-            Bridging Entrepreneurship & Security
-          </span>{" "}
-          – Learned to integrate security principles into business and
-          product development.
-        </li>
-        <li>
-          <span className="font-bold">Real-World Problem Solving</span> –
-          Applied business strategy to create secure, scalable tech
-          solutions.
-        </li>
-        <li>
-          <span className="font-bold">Cross-Disciplinary Growth</span> –
-          Connected business, technology, and security, reinforcing my GCSP
-          competencies.
-        </li>
-      </ul>
-
-      <h4 className="font-semibold mt-4 mb-2">
-        Value of the Project Experience:
-      </h4>
-      <ul className="list-disc list-inside ml-4">
-        <li>
-          <span className="font-bold">GCSP Connection</span> – Strengthened
-          my ability to develop impactful solutions at the intersection of
-          business and security.
-        </li>
-        <li>
-          <span className="font-bold">Academic Growth</span> – Gained
-          hands-on experience in business strategy, customer development,
-          and product security.
-        </li>
-        <li>
-          <span className="font-bold">Professional Impact</span> – Applied
-          entrepreneurial skills in both{" "}
-          <span className="font-bold">Strive and Courseer</span>, shaping my
-          approach to secure software development.
-        </li>
-      </ul>
-    </>
+      <p>
+        This experience helped me bridge the gap between entrepreneurship and
+        security, integrating security principles into business and product
+        development. I applied real-world problem-solving techniques to build
+        secure, scalable tech solutions and strengthened my cross-disciplinary
+        growth by connecting business, technology, and security—reinforcing my
+        GCSP competencies.
+      </p>
+      <p>
+        My work in this course aligned with my involvement in the Grand
+        Challenge Scholars Program (GCSP), enhancing my ability to develop
+        impactful solutions at the intersection of business and security.
+        Academically, I gained hands-on experience in business strategy,
+        customer development, and product security. Professionally, I applied
+        entrepreneurial skills to both Strive and Courseer, shaping my approach
+        to secure software development.
+      </p>
+      <p>
+        I had the unique opportunity to take this course in Ireland during my
+        Summer 2023 study abroad with Professor Kennedy, which provided
+        additional international perspectives on entrepreneurship and
+        innovation.
+      </p>
+    </div>
   );
 };
 

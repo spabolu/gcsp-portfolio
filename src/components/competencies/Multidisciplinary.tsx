@@ -22,7 +22,7 @@ const Multidisciplinary = ({
             Multidisciplinary Component
           </h2>
           <p className="text-sm text-gray-600 mt-1">
-            Status: FSE 150 (Confirmed), PAF 415 (Confirmed)
+            Status: FSE 150 (Completed), PAF 415 (Completed)
           </p>
         </div>
       </div>

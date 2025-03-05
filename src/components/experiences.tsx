@@ -35,6 +35,8 @@ const experiences = {
   fse301: {
     title: "FSE 301: Entrepreneurship & Value Creation",
     status: "FSE 301 (Completed)",
+    imageUrl:
+      "https://news.asu.edu/sites/default/files/styles/block_image_16_9_lge/public/hero_22.jpg",
     content: <FSE301Content />,
   },
   ireland: {
@@ -46,14 +48,14 @@ const experiences = {
   },
   solarspell: {
     title: "SolarSPELL Internship",
-    status: "Under Review",
+    status: "Internship (Completed)",
     imageUrl:
       "https://images.unsplash.com/photo-1632932693914-89b90ae3d16d?q=80&w=3163&auto=format&fit=crop",
     content: <SolarSpellContent />,
   },
   epics: {
     title: "EPICS Program",
-    status: "Semester I & II (Confirmed)",
+    status: ["FSE 104 (Completed)", "FSE 404 (Completed)"],
     imageUrl:
       "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80",
     content: <EPICSContent />,

@@ -17,7 +17,7 @@ const Social: React.FC<SocialProps> = ({ setSelectedExperience, experiences }) =
             Social Consciousness Component
           </h2>
           <p className="text-sm text-gray-600 mt-1">
-            Status: EPICS Semester I & II (Confirmed)
+            Status: EPICS FSE 104 (Completed), FSE 404 (Completed)
           </p>
         </div>
       </div>

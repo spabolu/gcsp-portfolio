@@ -9,6 +9,7 @@ const CapstoneContent: React.FC = () => {
           <a
             href="https://docs.google.com/presentation/d/17QWrZ5OeZXgPss-vr1xEuZh5a-X5s1pabSeBVgKcd0A/edit?usp=sharing"
             className="text-blue-600 hover:text-blue-800 hover:underline"
+            target="_blank"
           >
             Google Drive Link
           </a>
@@ -18,6 +19,7 @@ const CapstoneContent: React.FC = () => {
           <a
             href="https://drive.google.com/file/d/1W56OY6SzHtOMXBjaNerQ_nlDPIwolstr/view?usp=sharing"
             className="text-blue-600 hover:text-blue-800 hover:underline"
+            target="_blank"
           >
             Google Drive Link
           </a>

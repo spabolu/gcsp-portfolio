@@ -9,6 +9,7 @@ const PAF415Content: React.FC = () => {
           <a
             href=""
             className="text-blue-600 hover:text-blue-800 hover:underline"
+            target="_blank"
           >
             Google Drive Link
           </a>

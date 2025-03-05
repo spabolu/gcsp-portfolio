@@ -21,12 +21,14 @@ const Header: React.FC = () => {
             <a
               href="https://github.com/spabolu"
               className="hover:text-blue-200 transition-colors"
+              target="_blank"
             >
               <Github className="w-6 h-6" />
             </a>
             <a
               href="https://www.linkedin.com/in/spabolu/"
               className="hover:text-blue-200 transition-colors"
+              target="_blank"
             >
               <Linkedin className="w-6 h-6" />
             </a>
