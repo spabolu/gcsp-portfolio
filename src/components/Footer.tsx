@@ -1,5 +1,5 @@
 import React from "react";
-import { Github, Linkedin } from "lucide-react";
+import { Github, Linkedin, FileBadge } from "lucide-react";
 
 const Footer: React.FC = () => {
   return (
@@ -22,9 +22,16 @@ const Footer: React.FC = () => {
               <a
                 href="https://www.linkedin.com/in/spabolu/"
                 className="hover:text-blue-200 transition-colors"
-
+                target="_blank"
               >
                 <Linkedin className="w-6 h-6" />
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1b8XyrQlHGXgqFsIEce1qwjsb9qiMn2uw/view?usp=sharing"
+                className="hover:text-blue-200 transition-colors"
+                target="_blank"
+              >
+                <FileBadge className="w-6 h-6" />
               </a>
               {/* <a href="#" className="hover:text-blue-200 transition-colors">
                 <Mail className="w-6 h-6" />

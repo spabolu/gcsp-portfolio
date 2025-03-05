@@ -73,10 +73,17 @@ const Multicultural: React.FC<MulticulturalProps> = ({
               SolarSPELL Internship
             </h3>
             <p className="text-gray-600">
-              Currently working with SolarSPELL to develop sustainable digital
-              library solutions for healthcare education in resource-limited
-              areas, combining technology with cultural sensitivity to create
-              effective educational tools.
+              The SolarSPELL Backend Engineering Internship allowed me to
+              explore global security challenges while developing technical
+              solutions for offline digital libraries in regions with limited
+              internet access. I researched cultural and educational barriers in
+              struggling countries, adapting secure Wi-Fi access points on
+              Raspberry Pi devices to meet local privacy regulations and user
+              needs. Working with other teams, I gained insight into how
+              usability and cultural acceptance intersect in technology
+              adoption. This experience deepened my global perspective on
+              security, reinforcing the importance of culturally-accepted
+              engineering solutions.
             </p>
           </div>
         </div>

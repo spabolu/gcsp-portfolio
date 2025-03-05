@@ -1,5 +1,5 @@
 import React from "react";
-import { Github, Linkedin } from "lucide-react";
+import { Github, Linkedin, FileBadge } from "lucide-react";
 
 const Header: React.FC = () => {
   return (
@@ -17,22 +17,29 @@ const Header: React.FC = () => {
             </p>
             <p>Grand Challenge Theme: Security</p>
           </div>
-          <div className="flex gap-4 md:mt-8 mt-6">
+          <div className="flex gap-2.5 md:mt-7 mt-6">
             <a
               href="https://github.com/spabolu"
-              className="hover:text-blue-200 transition-colors"
+              className="hover:text-zinc-800 transition-colors hover:bg-neutral-100 p-0.5 rounded-lg"
               target="_blank"
             >
               <Github className="w-6 h-6" />
             </a>
             <a
               href="https://www.linkedin.com/in/spabolu/"
-              className="hover:text-blue-200 transition-colors"
+              className="hover:text-zinc-800 transition-colors hover:bg-neutral-100 p-0.5 rounded-lg"
               target="_blank"
             >
               <Linkedin className="w-6 h-6" />
             </a>
-            {/* <a href="#" className="hover:text-blue-200 transition-colors">
+            <a
+              href="https://drive.google.com/file/d/1b8XyrQlHGXgqFsIEce1qwjsb9qiMn2uw/view?usp=sharing"
+              className="hover:text-zinc-800 transition-colors hover:bg-neutral-100 p-0.5 rounded-lg"
+              target="_blank"
+            >
+              <FileBadge className="w-6 h-6" />
+            </a>
+            {/* <a href="#" className="hover:text-zinc-800 transition-colors hover:bg-neutral-100 p-0.5 rounded-lg">
             <Mail className="w-6 h-6" />
           </a> */}
           </div>

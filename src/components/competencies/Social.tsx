@@ -3,11 +3,16 @@ import { Heart } from "lucide-react";
 import { ExperienceDetailsProps } from "../../types";
 
 interface SocialProps {
-  setSelectedExperience: React.Dispatch<React.SetStateAction<ExperienceDetailsProps | null>>;
+  setSelectedExperience: React.Dispatch<
+    React.SetStateAction<ExperienceDetailsProps | null>
+  >;
   experiences: Record<string, ExperienceDetailsProps>;
 }
 
-const Social: React.FC<SocialProps> = ({ setSelectedExperience, experiences }) => {
+const Social: React.FC<SocialProps> = ({
+  setSelectedExperience,
+  experiences,
+}) => {
   return (
     <section className="mb-20">
       <div className="flex items-center gap-3 mb-6">
@@ -27,23 +32,19 @@ const Social: React.FC<SocialProps> = ({ setSelectedExperience, experiences }) =
       >
         <div className="grid md:grid-cols-2">
           <div className="p-8">
-            <h3 className="text-2xl font-semibold mb-4">EPICS FSE 104 & FSE 404 Program</h3>
+            <h3 className="text-2xl font-semibold mb-4">
+              EPICS FSE 104 & FSE 404 Program
+            </h3>
             <p className="text-gray-600 mb-4">
-              Participated in two semesters of Engineering Projects in Community
-              Service (EPICS), working on healthcare accessibility projects for
-              underserved communities.
+              I was part of two teams in EPICS. First, I worked with the
+              Stardust team, which focused on reducing solar panel waste by
+              creating a standardized pipeline to refurbish pre-owned solar
+              panels. My second project, Headcount, addressed occupancy tracking
+              in response to social distancing and limited spacing. Using
+              machine learning, Headcount monitored and counted total room
+              occupancy to ensure it remained within fire safety limits for
+              classrooms and ballrooms.
             </p>
-            <div className="space-y-4">
-              <div>
-                <h4 className="font-semibold text-gray-800">Impact:</h4>
-                <ul className="list-disc list-inside text-gray-600 ml-4">
-                  <li>Developed low-cost medical device prototypes</li>
-                  <li>Collaborated with local healthcare clinics</li>
-                  <li>Implemented community feedback systems</li>
-                  <li>Created sustainable solution frameworks</li>
-                </ul>
-              </div>
-            </div>
           </div>
           <div className="aspect-square">
             <img
