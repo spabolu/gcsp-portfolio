@@ -7,7 +7,7 @@ const IrelandContent: React.FC = () => {
         <p className="font-bold">
           Proof of Completion:{" "}
           <a
-            href=""
+            href="https://drive.google.com/file/d/1wN9oOAUuySNRO5T5aOwyFvozmtdSn9sc/view?usp=sharing"
             className="text-blue-600 hover:text-blue-800 hover:underline"
             target="_blank"
           >

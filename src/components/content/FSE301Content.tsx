@@ -26,7 +26,7 @@ const FSE301Content: React.FC = () => {
       </p>
 
       <p>
-        In 301 – Entrepreneurship & Value Creation, I developed Strive, an
+        In FSE 301 – Entrepreneurship & Value Creation, I developed Strive, an
         AI-powered fitness companion, refining strategies for customer
         engagement and product development. I conducted extensive market and
         pricing research, analyzing user behavior to improve product viability
