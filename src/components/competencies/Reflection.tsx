@@ -11,7 +11,7 @@ const Reflection: React.FC = () => {
         </h2>
       </div>
       <div className="bg-white rounded-xl shadow-md p-8 space-y-3">
-        <p className="text-gray-600 mb-4">
+        <p className="text-gray-600">
           My journey through the Grand Challenge Scholars Program (GCSP) has
           been an enriching experience, allowing me to explore the intersection
           of engineering, security, entrepreneurship, and global impact. Each of
@@ -25,7 +25,7 @@ const Reflection: React.FC = () => {
         <h3 className="text-lg font-medium">
           Talent – Real-world Experience through Capstone
         </h3>
-        <p className="text-gray-600 mb-4">
+        <p className="text-gray-600">
           My Capstone project played a pivotal role in developing my technical
           expertise in security and scalable applications. I worked on designing
           a secure commercial property management system for Rock Bay Square LP,
@@ -60,7 +60,7 @@ const Reflection: React.FC = () => {
         <h3 className="text-lg font-medium">
           Multidisciplinary Experience – Bridging Security, Business & Policy
         </h3>
-        <p>
+        <p className="text-gray-600">
           GCSP encouraged me to explore engineering beyond technical
           disciplines, leading me to take courses in public policy and
           entrepreneurship. My coursework in PAF 415 – Public Policy challenged
@@ -77,7 +77,7 @@ const Reflection: React.FC = () => {
         <h3 className="text-lg font-medium">
           Entrepreneurship – Tech Startups
         </h3>
-        <p>
+        <p className="text-gray-600">
           My coursework in FSE 301 – Entrepreneurship was instrumental in
           helping me connect business strategy with security-focused technology
           development. During this course, I developed Strive, an AI-powered
@@ -93,7 +93,7 @@ const Reflection: React.FC = () => {
         <h3 className="text-lg font-medium">
           Social Consciousness – Engineering for Impact
         </h3>
-        <p>
+        <p className="text-gray-600">
           A core takeaway from GCSP was learning that engineering must be
           socially responsible. My work at Headcount reinforced this by showing
           me how technical solutions must be accessible, ethical, and
@@ -107,7 +107,7 @@ const Reflection: React.FC = () => {
           better world.
         </p>
         <h3 className="text-lg font-medium">Future Impact</h3>
-        <p>
+        <p className="text-gray-600">
           Across all five competencies, security has been the central theme
           tying together my experiences. Whether developing machine learning
           solutions for fire safety, improving cybersecurity in offline digital
@@ -123,7 +123,7 @@ const Reflection: React.FC = () => {
           as I work toward building secure, user-centered technologies in my
           future career.
         </p>
-        <p>
+        <p className="text-gray-600">
           My Grand Challenges Scholars Program experience has been one of the
           most rewarding aspects of my academic journey. It has pushed me to
           think beyond classroom materials, helping me understand how
