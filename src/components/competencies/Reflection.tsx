@@ -23,7 +23,7 @@ const Reflection: React.FC = () => {
           real-world constraints, ethical implications, and cultural acceptance.
         </p>
         <h3 className="text-lg font-medium">
-          Talent – Engineering Research & Innovation
+          Talent – Real-world Experience through Capstone
         </h3>
         <p className="text-gray-600 mb-4">
           My Capstone project played a pivotal role in developing my technical
@@ -75,7 +75,7 @@ const Reflection: React.FC = () => {
           technology beyond just its functionality.
         </p>
         <h3 className="text-lg font-medium">
-          Entrepreneurship – Applying Security Principles in Tech Startups
+          Entrepreneurship – Tech Startups
         </h3>
         <p>
           My coursework in FSE 301 – Entrepreneurship was instrumental in
@@ -106,9 +106,7 @@ const Reflection: React.FC = () => {
           deep appreciation for the responsibility engineers have in shaping a
           better world.
         </p>
-        <h3 className="text-lg font-medium">
-          Connectivity Across Experiences & Future Impact
-        </h3>
+        <h3 className="text-lg font-medium">Future Impact</h3>
         <p>
           Across all five competencies, security has been the central theme
           tying together my experiences. Whether developing machine learning
