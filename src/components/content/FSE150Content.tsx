@@ -7,7 +7,7 @@ const FSE150Content: React.FC = () => {
         <p className="font-bold">
           Perspective of Themes:{" "}
           <a
-            href=""
+            href="https://docs.google.com/document/d/1kz8b-H0urHf0SO-ILhF36R-g1I2amoV4r0LibzdIP5o/edit?usp=sharing"
             className="text-blue-600 hover:text-blue-800 hover:underline"
             target="_blank"
           >
