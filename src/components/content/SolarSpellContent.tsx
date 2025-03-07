@@ -5,9 +5,9 @@ const SolarSpellContent: React.FC = () => {
     <div className="space-y-3">
       <div className="bg-amber-100 rounded-lg p-2">
         <p className="font-bold">
-          Perspective of Themes:{" "}
+        Proof of Completion:{" "}
           <a
-            href=""
+            href="https://drive.google.com/file/d/1utDUHJEhMNk0TTgW7dmJ5gcoDkfPZYWt/view?usp=sharing"
             className="text-blue-600 hover:text-blue-800 hover:underline"
             target="_blank"
           >
