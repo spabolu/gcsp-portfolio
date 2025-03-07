@@ -26,20 +26,15 @@ const EPICSContent: React.FC = () => {
         </p>
       </div>
 
+      <p className="italic">Work-in-progress</p>
       <p>
-        I was part of two teams in EPICS. First I was part of the Stardust team
-        working on reducing solar panel waste by creating a standarized
-        pieplient to refursbhe pre-ownded solar panels. THe second project is
-        Headcount, with the rise of social distancing and limited spacing a
-        classroom or ballroom, Headcount uses ML to track and count total
-        occupancy of a room and ensure it is udner the fire safety occupancy
-        limit for a room/building.I was part of two teams in EPICS. First, I
-        worked with the Stardust team, which focused on reducing solar panel
-        waste by creating a standardized pipeline to refurbish pre-owned solar
-        panels. My second project, Headcount, addressed occupancy tracking in
-        response to social distancing and limited spacing. Using machine
-        learning, Headcount monitored and counted total room occupancy to ensure
-        it remained within fire safety limits for classrooms and ballrooms.
+        I was part of two teams in EPICS. First, I worked with the Stardust
+        team, which focused on reducing solar panel waste by creating a
+        standardized pipeline to refurbish pre-owned solar panels. My second
+        project, Headcount, addressed occupancy tracking in response to social
+        distancing and limited spacing. Using machine learning, Headcount
+        monitored and counted total room occupancy to ensure it remained within
+        the fire safety limits for classrooms and ballrooms.
       </p>
     </div>
   );

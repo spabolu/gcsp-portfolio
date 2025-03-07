@@ -42,7 +42,7 @@ const Social: React.FC<SocialProps> = ({
               panels. My second project, Headcount, addressed occupancy tracking
               in response to social distancing and limited spacing. Using
               machine learning, Headcount monitored and counted total room
-              occupancy to ensure it remained within fire safety limits for
+              occupancy to ensure it remained within the fire safety limits for
               classrooms and ballrooms.
             </p>
           </div>
