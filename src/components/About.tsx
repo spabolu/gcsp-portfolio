@@ -18,10 +18,17 @@ const About: React.FC = () => {
               workflows—increasingly urgent challenges in an increasingly
               digital world. My journey has been shaped by experiences in
               entrepreneurship and social impact, including my role as the
-              Founder of Courseer, a SaaS startup helping over 2000 students
-              track course availability. I have also developed my technical and
-              leadership skills through my Capstone project coursework in FSE
-              150, PAF 415, and FSE 301, fulfilling key GCSP competencies.
+              Founder of{" "}
+              <a
+                className="text-blue-600 hover:text-blue-800 hover:underline"
+                href="https://courseer.com"
+              >
+                Courseer
+              </a>
+              , a SaaS startup helping over 2200 students track course
+              availability. I have also developed my technical and leadership
+              skills through my Capstone project coursework in FSE 150, PAF 415,
+              and FSE 301, fulfilling key GCSP competencies.
             </p>
             <p className="text-gray-600 leading-relaxed mt-4">
               Beyond academics, I have gained a global perspective through my
