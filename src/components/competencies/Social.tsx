@@ -36,14 +36,16 @@ const Social: React.FC<SocialProps> = ({
               EPICS FSE 104 & FSE 404 Program
             </h3>
             <p className="text-gray-600 mb-4">
-              I was part of two teams in EPICS. First, I worked with the
-              Stardust team, which focused on reducing solar panel waste by
-              creating a standardized pipeline to refurbish pre-owned solar
-              panels. My second project, Headcount, addressed occupancy tracking
-              in response to social distancing and limited spacing. Using
-              machine learning, Headcount monitored and counted total room
-              occupancy to ensure it remained within the fire safety limits for
-              classrooms and ballrooms.
+              My experience in the EPICS program allowed me to work on two
+              projects: Stardust and Headcount. They challenged me to approach
+              engineering through the lens of social responsibility. With
+              Stardust, I helped design a scalable process for refurbishing
+              solar panels, addressing both environmental and economic concerns.
+              In Headcount, our team partnered with the ASU Memorial Union to
+              build a room occupancy monitoring system using Raspberry Pi,
+              computer vision, and IMEI-based tracking to support post-pandemic
+              public safety. Both projects emphasized user needs, and long-term
+              impact, shaping me into a better engineer.
             </p>
           </div>
           <div className="aspect-square">
