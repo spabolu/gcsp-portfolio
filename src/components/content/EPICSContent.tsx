@@ -45,18 +45,18 @@ const EPICSContent: React.FC = () => {
         meaningful change at the community level.
       </p>
       <p>
-        Headcount, on the other hand, emerged from a public safety need. After
-        the pandemic, there was a clear challenge in tracking and managing the
-        number of people in indoor spaces like ASU classrooms or ballrooms at
-        MU. Our team partnered with staff at the ASU Memorial Union to build a
-        solution that used computer vision to monitor room occupancy. We
-        developed several prototypes using Raspberry Pi devices, shifting
-        between thermal sensors, Haarcascade-based AI modules (Python/OpenCV),
-        and finally exploring IMEI-based tech tracking to ensure better privacy
-        and cost-efficiency. Our goal was to create a system that was accurate,
-        low-cost, easy to deploy, and unobtrusive. However, we had to completely
-        rework the software multiple times and it was a great learning
-        opportunity.
+        Headcount, on the other hand, directly tied into my Grand Challenge
+        theme of Security. In the wake of the pandemic, tracking room occupancy
+        became a pressing public safety concern. Our EPICS team partnered with
+        staff at the ASU Memorial Union (MU) to develop a system using Raspberry
+        Pi devices, computer vision (Python/OpenCV), and IMEI-based tech
+        tracking to monitor indoor crowd sizes. From handling privacy concerns
+        to ensuring data accuracy and minimal network interference, the project
+        taught me how security is more than just software. It's also about
+        creating systems people trust and feel safe using. Designing with
+        privacy, safety, and accessibility in mind made me think deeply about
+        how engineering solutions must be not only functional but also ethically
+        and socially sound.
       </p>
       <p>
         Through both projects, I learned that real impact doesn't come from
