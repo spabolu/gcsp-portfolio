@@ -59,6 +59,21 @@ const EPICSContent: React.FC = () => {
         and socially sound.
       </p>
       <p>
+        These EPICS experiences had a meaningful impact on both my academic and
+        professional goals. Both projects tied into my Grand Challenge theme of
+        Security, and they helped me understand that complex problems require
+        solutions that are not only technically sound but also secure, with
+        proper safeguards in place. This was especially true for the Headcount
+        project, where we were prototyping ML algorithms to capture images of
+        people in public spaces—raising important considerations around privacy
+        and data ethics. The Stardust project showed me that security isn't just
+        about making something hacker-proof; it also involves transparency, such
+        as creating an open, testable process for refurbishing solar panels and
+        earning customer trust. These experiences have made me more aware of the
+        ethical implications of my work and the importance of considering the
+        broader societal impact of engineering solutions.
+      </p>
+      <p>
         Through both projects, I learned that real impact doesn't come from
         perfect solutions—it comes from being willing to listen, iterate, and
         adapt based on the needs of the community you're serving. Two semesters
