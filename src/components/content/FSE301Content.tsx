@@ -47,10 +47,16 @@ const FSE301Content: React.FC = () => {
       <p>
         While not part of FSE 301, the principles I learned in the course
         provided a strong foundation for designing my own SaaS project,
-        Courseer. Applying my knowledge of market research, secure data
-        handling, and scalable product growth, I ensured that Courseer
-        prioritized data privacy, secure transactions, and user
-        authentication—key elements of security-focused solutions in tech.
+        <a
+          className="text-blue-600 hover:text-blue-800 hover:underline"
+          href="https://courseer.co"
+        >
+          Courseer
+        </a>
+        . Applying my knowledge of market research, secure data handling, and
+        scalable product growth, I ensured that Courseer prioritized data
+        privacy, secure transactions, and user authentication—key elements of
+        security-focused solutions in tech.
       </p>
       <p>
         This experience helped me bridge the gap between entrepreneurship and

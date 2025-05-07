@@ -83,12 +83,18 @@ const Reflection: React.FC = () => {
           development. During this course, I developed Strive, an AI-powered
           fitness SaaS, applying market research, product development, and
           business modeling strategies to refine my idea. This entrepreneurial
-          mindset carried over into my personal project, Courseer, where I
-          implemented course tracking bakend, user authentication, and scalable
-          growth. Courseer has over 2000 users and generates monthly revenue.
-          Taking FSE 301 during my study abroad experience further solidified my
-          understanding of global entrepreneurship and the importance of
-          security considerations in emerging technologies.
+          mindset carried over into my personal project,{" "}
+          <a
+            className="text-blue-600 hover:text-blue-800 hover:underline"
+            href="https://courseer.co"
+          >
+            Courseer
+          </a>
+          , where I implemented course tracking bakend, user authentication, and
+          scalable growth. Courseer has over 2200 users and generates monthly
+          revenue. Taking FSE 301 during my study abroad experience further
+          solidified my understanding of global entrepreneurship and the
+          importance of security considerations in emerging technologies.
         </p>
         <h3 className="text-lg font-medium">
           Social Consciousness – Engineering for Impact

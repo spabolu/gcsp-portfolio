@@ -21,7 +21,7 @@ const About: React.FC = () => {
               Founder of{" "}
               <a
                 className="text-blue-600 hover:text-blue-800 hover:underline"
-                href="https://courseer.com"
+                href="https://courseer.co"
               >
                 Courseer
               </a>
