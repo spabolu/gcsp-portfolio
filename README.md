@@ -1,50 +1,28 @@
-# React + TypeScript + Vite
+# GCSP Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the source code for my Grand Challenge Scholars Program (GCSP) portfolio website. It is a single-page application built with React, TypeScript, TailwindCSS, and Vite, showcasing my journey and experiences throughout the program at Arizona State University. The website is styled using Tailwind CSS.
 
-Currently, two official plugins are available:
+## Summary of GCSP Experiences
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This portfolio summarizes my work across the five competencies of the Grand Challenge Scholars Program, with a focus on the theme of **Security**.
 
-## Expanding the ESLint configuration
+- **Talent/Research (Capstone & SolarSpell):**
+  - Designed and developed a secure, full-stack property management system for a commercial client, focusing on data integrity, secure authentication (JWT, role-based access control), and scalable deployment on AWS.
+  - Interned with SolarSPELL, creating secure, accessible offline digital libraries on Raspberry Pi devices for communities with limited internet, adapting technology to cultural and infrastructural constraints in regions like South Africa.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Multidisciplinary (FSE 150 & PAF 415):**
+  - Explored the intersection of engineering, public policy, and social impact.
+  - Developed a mobile app concept for St. Mary’s Food Bank to address operational and security challenges in food distribution.
 
-- Configure the top-level `parserOptions` property like this:
+- **Viable Business/Entrepreneurship (FSE 301):**
+  - Developed business plans for tech ventures, including an AI fitness companion (`Strive`) and a SaaS platform (`Courseer`), focusing on market research, product development, and integrating security-by-design principles.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **Multicultural/Global Perspective (Study Abroad in Ireland):**
+  - Gained a global perspective on technology and entrepreneurship during a study abroad program in Dublin, Ireland. Studied the impact of cultural contexts and regulations like GDPR on tech innovation.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **Social Consciousness/Service Learning (EPICS):**
+  - Contributed to two community-focused projects: `Stardust`, a project to refurbish used solar panels, and `Headcount`, a system for monitoring room occupancy for public safety using computer vision, with a strong emphasis on data privacy and ethics.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- **ASU Full Circle Article:** [fullcircle.asu.edu/graduate/saketh-pabolu/](https://fullcircle.asu.edu/graduate/saketh-pabolu/)
