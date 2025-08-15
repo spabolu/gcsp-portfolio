@@ -19,7 +19,7 @@ This portfolio summarizes my work across the five competencies of the Grand Chal
   - Developed a mobile app concept for St. Mary’s Food Bank to address operational and security challenges in food distribution.
 
 - **Viable Business/Entrepreneurship (FSE 301):**
-  - Developed business plans for tech ventures, including an AI fitness companion (`Strive`) and a SaaS platform (`Courseer`), focusing on market research, product development, and integrating security-by-design principles.
+  - Developed business plans for tech ventures, including an AI fitness companion (`Strive`) and a SaaS platform ([`Courseer`](https://courseer.co/)), focusing on market research, product development, and integrating security-by-design principles.
 
 - **Multicultural/Global Perspective (Study Abroad in Ireland):**
   - Gained a global perspective on technology and entrepreneurship during a study abroad program in Dublin, Ireland. Studied the impact of cultural contexts and regulations like GDPR on tech innovation.
