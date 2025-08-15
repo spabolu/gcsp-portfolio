@@ -1,6 +1,10 @@
-# GCSP Portfolio
+# ASU GCSP Portfolio
 
 This repository contains the source code for my Grand Challenge Scholars Program (GCSP) portfolio website. It is a single-page application built with React, TypeScript, TailwindCSS, and Vite, showcasing my journey and experiences throughout the program at Arizona State University. The website is styled using Tailwind CSS.
+
+---
+
+- **ASU Full Circle Article:** [fullcircle.asu.edu/graduate/saketh-pabolu/](https://fullcircle.asu.edu/graduate/saketh-pabolu/)
 
 ## Summary of GCSP Experiences
 
@@ -23,6 +27,3 @@ This portfolio summarizes my work across the five competencies of the Grand Chal
 - **Social Consciousness/Service Learning (EPICS):**
   - Contributed to two community-focused projects: `Stardust`, a project to refurbish used solar panels, and `Headcount`, a system for monitoring room occupancy for public safety using computer vision, with a strong emphasis on data privacy and ethics.
 
----
-
-- **ASU Full Circle Article:** [fullcircle.asu.edu/graduate/saketh-pabolu/](https://fullcircle.asu.edu/graduate/saketh-pabolu/)
