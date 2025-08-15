@@ -1,6 +1,6 @@
 # ASU GCSP Portfolio
 
-This repository contains the source code for my Grand Challenge Scholars Program (GCSP) portfolio website. It is a single-page application built with React, TypeScript, TailwindCSS, and Vite, showcasing my journey and experiences throughout the program at Arizona State University. The website is styled using Tailwind CSS.
+This repository contains the source code for my Grand Challenge Scholars Program (GCSP) portfolio website. It is a single-page application built with React, TypeScript, and Vite, showcasing my journey and experiences throughout the program at Arizona State University. The website is styled using Tailwind CSS.
 
 ---
 
